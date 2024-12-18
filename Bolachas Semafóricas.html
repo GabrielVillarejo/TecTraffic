@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos TecTraffic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="imagex/png" href="img/181c2c-_1_.ico">
+</head>
+    <body>
+        <header class="cabeçalho">
+            <a href="index.html"><img src="img/logo tec.png" alt="Logo TecTraffic" class="logo"></a>
+            <ul class="lista-menu" id="listaMenu">
+                <li class="lista-menu__item">
+                    <a href="index.html" class="lista-menu__link">Home</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="sobre.html" class="lista-menu__link">Sobre</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="produtos.html" class="lista-menu__link">Produtos</a>
+                </li>
+            </ul>
+            <button class="menu-hamburguer" id="menuHamburguer">
+                <div></div>
+                <div></div>
+                <div></div>
+            </button>
+            <div class="atendimento">
+                <a href="https://wa.me/message/SDO6HAV2ZCFGC1" target="_blank" class="atendimento__link">Atendimento Online</a>
+            </div>
+        </header>
+    
+        
+        
+        <script>
+            const menuHamburguer = document.getElementById('menuHamburguer');
+            const listaMenu = document.getElementById('listaMenu');
+            
+            menuHamburguer.addEventListener('click', () => {
+                menuHamburguer.classList.toggle('ativo');
+                if (menuHamburguer.classList.contains('ativo')) {
+                    listaMenu.style.display = 'block';
+                } else {
+                    listaMenu.style.display = 'none';
+                }
+            });
+        </script>
+        <section class="produtos__section">
+                    <h1 class="Titulo loja__titulo__produto">Nossos Produtos</h1>
+        </section>
+        <section class="loja">
+            <div class="div__imagem">
+                <img src="img/novas imagens/10.png" alt="Bolachas Semafóricas" class="loja__imagem">
+            </div>
+            <div class="loja__texto">
+                <h1 class="loja__titulo">Bolachas Semafóricas</h1>
+                <p class="loja__paragrafo loja__paragrafo2">Bolachas/Ampolas semafóricas utilizadas em blocos semafóricos de sinalização viária. Disponíveis em 200mm e 300mm.</p>
+                <a href="https://wa.me/message/SDO6HAV2ZCFGC1" class="loja__botão">Entre Em Contato!</a>
+            </div>
+        </section>
+        <section class="loja__Especificações">
+            <h1 class="Especificações__titulo">Especificações</h1>
+            <table class="tabela">
+                <tr class="linha">
+                    <td class="linha__informação">LED'S</td>
+                    <td class="linha__conteudo">Alto brilho de 5mm</td>
+                </tr>
+                <tr class="linha">
+                    <td class="linha__informação">CANECO</td>
+                    <td class="linha__conteudo">Poliestireno de alto impacto.</td>
+                </tr>
+                <tr class="linha">
+                    <td class="linha__informação">VISOR FRONTAL</td>
+                    <td class="linha__conteudo">Policarbonato cristal de 2mm.</td>
+                </tr>
+                <tr class="linha">
+                    <td class="linha__informação">ALIMENTAÇÃO</td>
+                    <td class="linha__conteudo">12Vcc ou 24Vcc ou 90~240Vca.</td>
+                </tr>
+                <tr class="linha">
+                    <td class="linha__informação">CONSUMO 200MM</td>
+                    <td class="linha__conteudo">6W.</td>
+                </tr>
+                <tr class="linha">
+                    <td class="linha__informação">CONSUMO 300MM</td>
+                    <td class="linha__conteudo">9W.</td>
+                </tr>
+                <tr class="linha">
+                    <td class="linha__informação">PROTEÇÃO</td>
+                    <td class="linha__conteudo">IP54.</td>
+                </tr>
+                <tr class="linha">
+                    <td class="linha__informação">TEMPERATURA</td>
+                    <td class="linha__conteudo">-10°C a 70°C.</td>
+                </tr>
+                <tr class="linha">
+                    <td class="linha__informação">UMIDADE</td>
+                    <td class="linha__conteudo">10% a 95%.</td>
+                </tr>
+                <tr class="linha">
+                    <td class="linha__informação">MTBF</td>
+                    <td class="linha__conteudo">60.000h.</td>
+                </tr>
+                <tr class="linha">
+                    <td class="linha__informação">DIMENSÃO 200MM</td>
+                    <td class="linha__conteudo">220mm.</td>
+                </tr>
+                <tr class="linha">
+                    <td class="linha__informação">DIMENSÃO 300MM</td>
+                    <td class="linha__conteudo">330mm.</td>
+                </tr>
+                
+            </table>
+        </section>
+        <footer class="footer">
+            <div class="footer__left">
+                <p class="footer__left__texto">
+                    Copyright &copy; 2025 - Todos os direitos reservados
+                </p>
+            </div>
+            <div class="footer__right">
+                <nav class="footer__nav">
+                    <ul class="footer__menu">
+                        <li><a href="#" class="footer__link">Termos e Condições</a></li>
+                        <li><a href="#" class="footer__link">Política de Privacidade</a></li>
+                        <li><a href="#" class="footer__link">Cookies</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+    </body>
+</html>

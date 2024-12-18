@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos TecTraffic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="imagex/png" href="img/181c2c-_1_.ico">
+</head>
+    <body>
+        <header class="cabeçalho">
+            <a href="index.html"><img src="img/logo tec.png" alt="Logo TecTraffic" class="logo"></a>
+            <ul class="lista-menu" id="listaMenu">
+                <li class="lista-menu__item">
+                    <a href="index.html" class="lista-menu__link">Home</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="sobre.html" class="lista-menu__link">Sobre</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="produtos.html" class="lista-menu__link">Produtos</a>
+                </li>
+            </ul>
+            <button class="menu-hamburguer" id="menuHamburguer">
+                <div></div>
+                <div></div>
+                <div></div>
+            </button>
+            <div class="atendimento">
+                <a href="https://wa.me/message/SDO6HAV2ZCFGC1" target="_blank" class="atendimento__link">Atendimento Online</a>
+            </div>
+        </header>
+    
+        
+        
+        <script>
+            const menuHamburguer = document.getElementById('menuHamburguer');
+            const listaMenu = document.getElementById('listaMenu');
+            
+            menuHamburguer.addEventListener('click', () => {
+                menuHamburguer.classList.toggle('ativo');
+                if (menuHamburguer.classList.contains('ativo')) {
+                    listaMenu.style.display = 'block';
+                } else {
+                    listaMenu.style.display = 'none';
+                }
+            });
+        </script>
+        <section class="produtos__section">
+                    <h1 class="Titulo loja__titulo__produto">Nossos Produtos</h1>
+        </section>
+        <section class="loja">
+            <div class="div__imagem">
+                <img src="img/novas imagens/9.png" alt="Indicador de Velocidade" class="loja__imagem">
+            </div>
+            <div class="loja__texto">
+                <h1 class="loja__titulo">Indicador de Velocidade</h1>
+                <p class="loja__paragrafo">Detector/indicador de velocidade foi desenvolvido para
+                    aplicação em locais onde haja necessidade de monitorar a
+                    velocidade de veículos. Utilizado nos locais onde o
+                    operador do sistema viário deseja atuar mais
+                    acentuadamente na educação dos motoristas, para que
+                    respeitem a sinalização de trânsito.</p>
+                <p class="loja__paragrafo">A velocidade medida é apresentada em displays de LED’s.</p>
+                <p class="loja__paragrafo loja__paragrafo2">Existem dois modelos para detectar a velocidade, laço indutivo ou radar doppler.</p>
+                <a href="https://wa.me/message/SDO6HAV2ZCFGC1" class="loja__botão">Entre Em Contato!</a>
+            </div>
+        </section>
+        <section class="loja__Especificações">
+            <h1 class="Especificações__titulo">Especificações</h1>
+            <table class="tabela">
+                <tr class="linha">
+                    <td class="linha__informação">DISPLAY</td>
+                    <td class="linha__conteudo">LED's monocromáticos vermelhos de alto brilho em caracteres numéricos de 3 dígitos (188), de 540mm de largura e 340mm de altura.
+
+                        </td>
+                </tr>
+                <tr class="linha">
+                    <td class="linha__informação">SEMÁFOROS</td>
+                    <td class="linha__conteudo">Três sinalizadores de LED's circulares de 100mm, sendo um (1) vermelho, um (1) amarelo e um (1) verde.</td>
+                </tr>
+                <tr class="linha">
+                    <td class="linha__informação">VISIBILIDADE</td>
+                    <td class="linha__conteudo">150 mts.</td>
+                </tr>
+                <tr class="linha">
+                    <td class="linha__informação">ALIMENTAÇÃO</td>
+                    <td class="linha__conteudo">12Vcc ou 24Vcc ou 90~240Vca.</td>
+                </tr>
+                <tr class="linha">
+                    <td class="linha__informação">CONSUMO</td>
+                    <td class="linha__conteudo">16W.</td>
+                </tr>
+                <tr class="linha">
+                    <td class="linha__informação">TEMPERATURA</td>
+                    <td class="linha__conteudo">-10°C a 70°C.</td>
+                </tr>
+                <tr class="linha">
+                    <td class="linha__informação">UMIDADE</td>
+                    <td class="linha__conteudo">10% a 90%
+                    </td>
+                </tr>
+                <tr class="linha">
+                    <td class="linha__informação">MTBF</td>
+                    <td class="linha__conteudo">40.000 h
+                    </td>
+                </tr>
+                <tr class="linha">
+                    <td class="linha__informação">PROTEÇÃO</td>
+                    <td class="linha__conteudo">IP 65</td>
+                </tr>
+                <tr class="linha">
+                    <td class="linha__informação">DIMENSÕES</td>
+                    <td class="linha__conteudo"> Altura: 1980mm, Largura: 640mm, Profundidade: 145mm.              
+                        </td>
+                </tr>
+                <tr class="linha">
+                    <td class="linha__informação">PESO</td>
+                    <td class="linha__conteudo">30Kg.
+                    </td>
+                </tr>
+                <tr class="linha">
+                    <td class="linha__informação">INTERFACE</td>
+                    <td class="linha__conteudo">RS485 / ETHERNET (protocolo aberto).</td>
+                </tr>
+            </table>
+        </section>
+        <footer class="footer">
+            <div class="footer__left">
+                <p class="footer__left__texto">
+                    Copyright &copy; 2025 - Todos os direitos reservados
+                </p>
+            </div>
+            <div class="footer__right">
+                <nav class="footer__nav">
+                    <ul class="footer__menu">
+                        <li><a href="#" class="footer__link">Termos e Condições</a></li>
+                        <li><a href="#" class="footer__link">Política de Privacidade</a></li>
+                        <li><a href="#" class="footer__link">Cookies</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer> 
+</html>
